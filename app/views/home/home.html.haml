@@ -1,0 +1,22 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "UTF-8"}/
+    %title Music Library
+    %link{:href => "../../assets/stylesheets/home.scss?v=1.0", :rel => "stylesheet"}/
+    %link{:href => "https://fonts.googleapis.com/css?family=Raleway", :rel => "stylesheet"}/
+    %link{:href => "../js/transitions.js", :rel => "script"}/
+  %body
+    #musicLibrary
+      %p#ml Music Library
+    #menu
+      %nav#navMusic
+        %a#currentLink.link-3{:href => "/"} Home
+        %a.link-3{:href => "/songs"} Songs
+        %a.link-3{:href => "/infos"} Albums
+        %a.link-3{:href => "/contact"} Contact
+    %div#background
+      %div#mainpage
+        %h1#welcomeHeader Welcome to my music library
+        %p#welcomeText by Stefanos Chatzakis

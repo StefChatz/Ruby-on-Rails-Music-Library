@@ -1,0 +1,66 @@
+ // Submit Button
+
+  input[type="submit"],#songButton {
+    background:orange;
+    color: white;
+    -webkit-appearance: none;
+    border: none;
+    text-transform: uppercase;
+    position:relative;
+    padding: 13px 50px;
+    font-size: 1.4em;
+    letter-spacing: 0.1em;
+
+    &:hover {
+      background: #581845;
+      color: orange;
+    }
+
+    &:focus {
+      outline:none;
+      background: orange;
+    }
+  }
+
+ .form-rounded {
+   box-shadow:none;
+   border-radius: 1rem;
+ }
+ .forms {
+   margin-top: 15px;
+ }
+ form input {
+   margin-top: 20px;
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   color: black;
+   position: center;
+   vertical-align: center;
+   horiz-align: center;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+ }
+
+ #ml{
+   margin-bottom: 0px;
+ }
+
+ #mainpage{
+   width: 50%;
+   align-content: center;
+   size: auto;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ #background{
+   color: white;
+   text-shadow: 2px 2px 5px black;
+   text-align: center;
+   align-content: center;
+   padding-top: 150px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+

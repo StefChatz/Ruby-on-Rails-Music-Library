@@ -1,0 +1,42 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "UTF-8"}/
+    %title Music Library
+    %link{:href => "../../assets/stylesheets/home.scss?v=1.0", :rel => "stylesheet"}/
+    %link{:href => "https://fonts.googleapis.com/css?family=Raleway", :rel => "stylesheet"}/
+    %link{:href => "../js/transitions.js", :rel => "script"}/
+  %body
+    #musicLibrary
+      %p#ml Music Library
+
+    #menu
+      %nav#navMusic
+        %a.link-3{:href => "/"} Home
+        %a#currentLink.link-3{:href => "/songs"} Songs
+        %a.link-3{:href => "/infos"} Albums
+        %a.link-3{:href => "/contact"} Contact
+    %div#background
+      %h1 Listing songs
+      %table#content
+        %thead
+          %tr
+            %th Song
+            %th Artist
+            %th
+            %th
+            %th
+
+        %tbody
+        - @songs.each do |song|
+          %tr
+            %td= song.title
+            %td= song.description
+            %td.songButtons= link_to 'Show', song
+            %td.songButtons= link_to 'Edit', edit_song_path(song)
+            %td.songButtons= link_to 'Destroy', song, method: :delete, data: { confirm: 'Are you sure?' }
+
+      %br
+        %div#addBtns
+          = link_to 'Add Song', new_song_path, class: 'addSong'
