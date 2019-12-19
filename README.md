@@ -1,8 +1,8 @@
 # Screenshots
 
-![Screenshot](Screenshots/screenshot_1.png)
+![Screenshot](screenshot_1.png)
 
-![Screenshot](Screenshots/screenshot_2.png)
+![Screenshot](screenshot_2.png)
 
 # Description
 
