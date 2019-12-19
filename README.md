@@ -1,24 +1,12 @@
-# README
+# Screenshots
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Screenshot](Screenshots/screenshot_1.png)
 
-Things you may want to cover:
+![Screenshot](Screenshots/screenshot_2.png)
 
-* Ruby version
+# Description
 
-* System dependencies
+I created this project during my second year of Computer Science Bachelors degree. This module was solely 
+based on eastablishing a good understanding of both Ruby and Ruby on Rails.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This projected was created as an assignement for the Web Applications Development Module.
